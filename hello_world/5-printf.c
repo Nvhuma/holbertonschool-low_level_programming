@@ -2,6 +2,7 @@
 /**
  * main - entry point of the program
  *
+ * Description: Prints a message with proper grammar.
  * Return: Always 0 (Success)
  */
 int main() {
