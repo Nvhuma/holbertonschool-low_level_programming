@@ -7,3 +7,4 @@ int main() {
     // End the program with the value 0
     return 0;
 }
+
