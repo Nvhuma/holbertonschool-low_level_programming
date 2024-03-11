@@ -2,13 +2,21 @@
 #include <stdlib.h>
 #include <time.h>
 
+/**
+ * main - Entry point of the program
+ *
+ * This program generates a random number and determines
+ * whether it is positive, negative, or zero.
+ *
+ * Return: Always returns 0 to indicate success.
+ */
 int main(void)
 {
     int n;
 
-    srand(time(NULL)); // Seed the random number generator with current time
+    srand(time(NULL)); /* Seed the random number generator with current time */
 
-    n = rand(); // Assign a random number to n
+    n = rand(); /* Assign a random number to n */
 
     printf("The number %d is ", n);
     
@@ -25,5 +33,5 @@ int main(void)
         printf("negative\n");
     }
 
-    return 0; // Indicates successful execution
+    return 0; /* Indicates successful execution */
 }                                  
