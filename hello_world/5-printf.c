@@ -1,16 +1,14 @@
 #include <stdio.h>
 
-
 /**
- * main - entry point of the program
+ *main - Entry point of the program
  *
- * Description: Prints a message with proper grammar.
- * Return: Always 0 (Success)
+ *Description: Writing my 2nd C program, but I still love JavaScript, sad.
+ *
+ *Return: Always 0 (Success)
  */
-int main()
+int main(void)
 {
-	printf("%s, but the outcome is a piece of art,\n",
-		       	"Programming is like building a multilingual puzzle");
-	 return 0;
- }
-
+printf("with proper grammar, but the outcome is a piece of art,\n");
+return (0);
+}
